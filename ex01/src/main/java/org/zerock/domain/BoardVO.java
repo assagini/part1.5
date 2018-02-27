@@ -55,3 +55,7 @@ public class BoardVO {
 	}
 
 }
+
+/* (7)174. BoardVO생성
+ 테이블의 칼럼 이름과 VO의 속성 이름을 동일하게 하기
+ */
