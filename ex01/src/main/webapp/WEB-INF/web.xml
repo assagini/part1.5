@@ -30,6 +30,7 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
+<!--(6)165.한글처리 고생 안 하게 -->
 	<filter>
 	  <filter-name>encoding</filter-name>
 	  <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -43,5 +44,11 @@
 	  <filter-name>encoding</filter-name>
 	  <url-pattern>/*</url-pattern>
 	</filter-mapping>
+	<!--//(6)165  -->
+	<!--그 다음은 템플릿 파일 설치  -->
+	<!--bootstrap, dist, plugins 폴더는 현재 프로젝트의 src/main/webapp/resource폴더로   -->
+	<!--include 폴더는 /WEB-INF/views 폴더로 복사   -->
+	<!--include 내용은 home.jsp에 반영  -->
+	<!--그리고 (7)BoardVO작성  -->
 
 </web-app>

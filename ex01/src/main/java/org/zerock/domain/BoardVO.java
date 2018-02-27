@@ -58,4 +58,8 @@ public class BoardVO {
 
 /* (7)174. BoardVO생성
  테이블의 칼럼 이름과 VO의 속성 이름을 동일하게 하기
+ (8)175. XML네임스페이스 추가 root-content.xml선택후 진행
+ beans, context, mybatis-spring체크
+ (9)176. MyBatis의 SqlSessionFactory, SqlSessionTemplate를 root-context에 등록
+ (10)177. BoardDAO생성
  */
