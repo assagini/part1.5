@@ -31,3 +31,9 @@ public interface BoardDAO {
   public int listSearchCount(SearchCriteria cri)throws Exception;
 
 }
+
+/* (10)177. BoardDAO생성 - 인터페이스
+ * +(11)177. boardMapper.xml을 작성하고 SQL을 추가
+  
+ */
+ 

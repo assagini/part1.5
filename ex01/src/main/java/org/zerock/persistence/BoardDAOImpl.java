@@ -81,3 +81,8 @@ public class BoardDAOImpl implements BoardDAO {
 
 
 }
+
+/*
+(12)179.BoardDAOImpl 작성
++(13)181.BoardDAOTest 작성
+*/
